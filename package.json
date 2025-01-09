@@ -1,0 +1,38 @@
+{
+	"author": "PaulAndreLOUIS",
+	"bugs": {
+		"url": "https://github.com/PaulAndreLOUIS/quack-quack-js/issues"
+	},
+	"description": "let ducks invade your local storage and have a chat there",
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"tsup": "^8.3.5",
+		"typescript": "^5.7.3"
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/PaulAndreLOUIS/quack-quack-js#readme",
+	"keywords": [
+		"typescript",
+		"quacks",
+		"ducks"
+	],
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"name": "quack-quack-js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PaulAndreLOUIS/quack-quack-js.git"
+	},
+	"scripts": {
+		"build": "tsup",
+		"test": "jest"
+	},
+	"types": "./dist/index.d.ts",
+	"version": "1.0.0"
+}
